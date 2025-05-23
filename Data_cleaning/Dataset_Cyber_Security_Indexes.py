@@ -34,3 +34,5 @@ print("=" * 40)
 # Simpan dataset yang telah dibersihkan
 output_path = "Dataset/Dataset_Cyber_Security_Indexes_Cleaned.csv"
 df.to_csv(output_path, index=False)
+
+#python3 Data_Cleaning/Dataset_Cyber_Security_Indexes.py

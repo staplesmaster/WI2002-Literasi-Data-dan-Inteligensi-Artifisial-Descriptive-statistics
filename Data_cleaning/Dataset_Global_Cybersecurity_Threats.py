@@ -37,3 +37,5 @@ print(f"Total baris yang dihapus: {total_deleted}")
 
 # Simpan hasil
 df.to_csv('Dataset/Dataset_Global_Cybersecurity_Threats_Cleaned.csv', index=False)
+
+#python3 Data_Cleaning/Dataset_Global_Cybersecurity_Threats.py
