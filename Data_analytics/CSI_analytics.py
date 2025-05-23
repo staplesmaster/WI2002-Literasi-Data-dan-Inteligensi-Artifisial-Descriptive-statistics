@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy import stats
 
 # Load CSV dengan penanganan koma dan baris rusak
-df = pd.read_csv('../Dataset/Dataset_Cyber_Security_Indexes.csv', quotechar='"', on_bad_lines='skip')
+df = pd.read_csv('../Dataset/Dataset_Cyber_Security_Indexes_Cleaned.csv', quotechar='"', on_bad_lines='skip')
 
 # Paksa CEI dan NCSI menjadi numerik, abaikan baris error
 df['CEI'] = pd.to_numeric(df['CEI'], errors='coerce')
