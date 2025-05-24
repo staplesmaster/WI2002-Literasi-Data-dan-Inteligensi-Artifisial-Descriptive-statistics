@@ -29,12 +29,16 @@ deleted_Years = after_deNA_rows - final_rows
 total_deleted = deleted_duplicates + deleted_na + deleted_Years
 
 # Cetak hasil
+print("=" * 40)
+print("Ringkasan Pembersihan Dataset")
+print("=" * 40)
 print(f"Total awal: {initial_rows}")
 print(f"Duplikat yang dihapus: {deleted_duplicates}")
 print(f"Baris yang mengandung NA dihapus: {deleted_na}")
 print(f"Baris dengan Year > 2025: {deleted_Years}")
 print(f"Total baris akhir: {final_rows}")
 print(f"Total baris yang dihapus: {total_deleted}")
+print("=" * 40)
 # Simpan hasil
 os.makedirs('Dataset', exist_ok=True)
 df.to_csv('../Dataset/Dataset_Global_Cybersecurity_Threats_Cleaned.csv', index=False)
