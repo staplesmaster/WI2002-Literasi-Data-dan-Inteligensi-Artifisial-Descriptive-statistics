@@ -22,13 +22,13 @@ total_dihapus = jumlah_duplikat_dihapus + jumlah_na_dihapus
 
 # Tampilkan ringkasan hasil
 print("=" * 40)
-print("📊 Ringkasan Pembersihan Dataset")
+print("Ringkasan Pembersihan Dataset")
 print("=" * 40)
-print(f"📂 Total baris awal            : {jumlah_awal}")
-print(f"❌ Duplikat yang dihapus       : {jumlah_duplikat_dihapus}")
-print(f"⚠️  Baris dengan NA yang dihapus : {jumlah_na_dihapus}")
-print(f"✅ Total baris akhir           : {jumlah_akhir}")
-print(f"🧹 Total baris yang dihapus    : {total_dihapus}")
+print(f"Total baris awal            : {jumlah_awal}")
+print(f"Duplikat yang dihapus       : {jumlah_duplikat_dihapus}")
+print(f"Baris dengan NA yang dihapus : {jumlah_na_dihapus}")
+print(f"Total baris akhir           : {jumlah_akhir}")
+print(f"Total baris yang dihapus    : {total_dihapus}")
 print("=" * 40)
 
 # Simpan dataset yang telah dibersihkan
