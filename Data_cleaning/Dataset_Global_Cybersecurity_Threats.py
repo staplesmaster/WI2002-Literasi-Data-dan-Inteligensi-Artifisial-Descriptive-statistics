@@ -1,7 +1,8 @@
 import pandas as pd
+import os
 
 # Load data
-df = pd.read_csv("Dataset/Dataset_Global_Cybersecurity_Threats_Noisy.csv")
+df = pd.read_csv("../Dataset/Dataset_Global_Cybersecurity_Threats_Noisy.csv")
 
 # Simpan jumlah awal
 initial_rows = len(df)
@@ -34,8 +35,9 @@ print(f"Baris yang mengandung NA dihapus: {deleted_na}")
 print(f"Baris dengan Year > 2025: {deleted_Years}")
 print(f"Total baris akhir: {final_rows}")
 print(f"Total baris yang dihapus: {total_deleted}")
-
 # Simpan hasil
-df.to_csv('Dataset/Dataset_Global_Cybersecurity_Threats_Cleaned.csv', index=False)
+os.makedirs('Dataset', exist_ok=True)
+df.to_csv('../Dataset/Dataset_Global_Cybersecurity_Threats_Cleaned.csv', index=False)
+df.to_csv('../Dataset/Dataset_Global_Cybersecurity_Threats_Cleaned.csv', index=False)
 
 #python3 Data_Cleaning/Dataset_Global_Cybersecurity_Threats.py

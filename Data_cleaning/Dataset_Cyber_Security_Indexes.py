@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load dataset
-file_path = "Dataset/Dataset_Cyber_Security_Indexes_Noisy.csv"
+file_path = "../Dataset/Dataset_Cyber_Security_Indexes_Noisy.csv"
 df = pd.read_csv(file_path)
 
 # Simpan jumlah baris awal
@@ -32,7 +32,7 @@ print(f"Total baris yang dihapus    : {total_dihapus}")
 print("=" * 40)
 
 # Simpan dataset yang telah dibersihkan
-output_path = "Dataset/Dataset_Cyber_Security_Indexes_Cleaned.csv"
+output_path = "../Dataset/Dataset_Cyber_Security_Indexes_Cleaned.csv"
 df.to_csv(output_path, index=False)
 
 #python3 Data_Cleaning/Dataset_Cyber_Security_Indexes.py
