@@ -1,4 +1,4 @@
-# Cybersecurity Data Analysis
+# Cybersecurity Data Analytics
 
 ## Description
 This project is a deliverables for WI2002 analyzing cybersecurity dataset. Using pandas python library for data preparation and data processsing
