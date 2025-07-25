@@ -1,4 +1,5 @@
-# Cybersecurity Data Analysis
+# Cybersecurity Data Analytics
+
 ## Description
 A comprehensive cybersecurity data analysis project utilizing Python and data science techniques. This project serves as a deliverable for the WI2002 course, focusing on analyzing cybersecurity datasets to derive meaningful insights.
 
